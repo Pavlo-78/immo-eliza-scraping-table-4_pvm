@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test csv",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_data.py::test_csv_exists",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test column names",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_data.py::test_columns",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test data",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_data.py::test_data",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test types",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_data.py::test_data_types",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
