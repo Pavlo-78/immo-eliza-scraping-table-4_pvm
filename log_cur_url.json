@@ -1,32 +1,32 @@
 [
   "19980",
   {
-    "id": 10824376,
+    "id": 10833139,
     "cluster": null,
     "customers": [
       {
-        "id": 1821912,
+        "id": 1620143,
         "type": "AGENCY",
-        "email": "trust@omniwebsites.be",
-        "logoUrl": "https://static.immoweb.be/logos/1821912.gif?cache=2017030802410",
-        "phoneNumber": "+32 10 68 01 81",
-        "mobileNumber": "+32 487 20 09 58",
-        "name": "TRUST REAL ESTATE SPRL",
-        "website": "http://www.trust-realestate.be",
+        "email": "99532@secure.fortissimmo.net ",
+        "logoUrl": "https://static.immoweb.be/logos/1620143.gif?cache=2017011002173",
+        "phoneNumber": "+32 496 17 68 78",
+        "mobileNumber": "+32 479 74 86 16",
+        "name": "Immo Taelman",
+        "website": "http://www.immotaelman.be",
         "location": {
           "country": "Belgium",
           "region": null,
-          "province": "Walloon Brabant",
-          "district": "Nivelles",
-          "locality": "Chaumont-Gistoux",
-          "postalCode": "1325",
-          "street": "Chaussée de Huy 231",
+          "province": "West Flanders",
+          "district": "Kortrijk",
+          "locality": "Deerlijk",
+          "postalCode": "8540",
+          "street": "Schoolstraat 43",
           "number": null,
           "box": null,
           "propertyName": null,
           "floor": null,
-          "latitude": 50.69,
-          "longitude": 4.69,
+          "latitude": 50.85,
+          "longitude": 3.36,
           "distance": null,
           "approximated": null,
           "regionCode": null,
@@ -35,7 +35,7 @@
           "pointsOfInterest": null,
           "placeName": null
         },
-        "ipiNo": "507.295",
+        "ipiNo": "502568",
         "isOwner": true,
         "contactHoursMobile": "anytime",
         "contactHoursLandline": "anytime",
@@ -80,183 +80,93 @@
     "media": {
       "pictures": [
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_1.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_1.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_1.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_1.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_1.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_1.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_2.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_2.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_2.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_2.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_2.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_2.jpg?cache=20230920205012",
+          "isVertical": true
+        },
+        {
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_3.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_3.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_3.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_3.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_3.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_3.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_4.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_4.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_4.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_4.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_4.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_4.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_5.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_5.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_5.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_5.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_5.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_5.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_6.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_6.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_6.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_6.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_6.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_6.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_7.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_7.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_7.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_7.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_7.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_7.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_8.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_8.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_8.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_8.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_8.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_8.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_9.gif?cache=20230920205013",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_9.jpg?cache=20230920205013",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_9.jpg?cache=20230920205013",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_9.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_9.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_9.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_0.gif?cache=20230920205012",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_0.jpg?cache=20230920205012",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_0.jpg?cache=20230920205012",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_0.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_0.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_0.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_A.gif?cache=20230920205013",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_A.jpg?cache=20230920205013",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_A.jpg?cache=20230920205013",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_A.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_A.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_A.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_B.gif?cache=20230920205013",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_B.jpg?cache=20230920205013",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_B.jpg?cache=20230920205013",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_B.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_B.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_B.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_C.gif?cache=20230920205013",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_C.jpg?cache=20230920205013",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_C.jpg?cache=20230920205013",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_C.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_C.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_C.jpg?cache=20230916120854",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_D.gif?cache=20230920205013",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_D.jpg?cache=20230920205013",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_D.jpg?cache=20230920205013",
           "isVertical": false
         },
         {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_D.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_D.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_D.jpg?cache=20230916120854",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_E.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_E.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_E.jpg?cache=20230916120854",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_F.gif?cache=20230916120854",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_F.jpg?cache=20230916120854",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_F.jpg?cache=20230916120854",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_G.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_G.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_G.jpg?cache=20230916120854",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_H.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_H.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_H.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_I.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_I.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_I.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_J.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_J.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_J.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_K.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_K.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_K.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_L.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_L.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_L.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_M.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_M.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_M.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_N.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_N.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_N.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_O.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_O.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_O.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_P.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_P.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_P.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_Q.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_Q.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_Q.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_R.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_R.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_R.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_S.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_S.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_S.jpg?cache=20230916120855",
-          "isVertical": false
-        },
-        {
-          "smallUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_T.gif?cache=20230916120855",
-          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/M_10824376_T.jpg?cache=20230916120855",
-          "largeUrl": "https://static.immoweb.be/photos/1/0/8/2/4/3/7/6/10824376_T.jpg?cache=20230916120855",
+          "smallUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_E.gif?cache=20230920205013",
+          "mediumUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/M_10833139_E.jpg?cache=20230920205013",
+          "largeUrl": "https://static.immoweb.be/photos/1/0/8/3/3/1/3/9/10833139_E.jpg?cache=20230920205013",
           "isVertical": false
         }
       ],
@@ -266,97 +176,87 @@
       "virtualExperienceUrl": null
     },
     "property": {
-      "type": "HOUSE",
-      "subtype": "HOUSE",
-      "title": "House",
-      "description": "Sorry, there is no English translation. Trust a le plaisir de vous proposer cette jolie maison de +/- 268 m² (superficie totale), dans le charmant village d'Ernage à 4,8 km de Chastre.   Située dans un cadre verdoyant, vous serez séduits par son agencement, ses finitions de qualité et le charme des extérieurs.   Situation idéale entre Bruxelles et Namur, à 80 m de l'arrêt de bus, à 1,2 km de la gare d'Ernage et à 10 km de l'E411.   Rez-de-chaussée : Hall d'entrée qui dessert un espace vestiaire, un séjour, une cuisine ouverte équipée et un WC séparé.   1er étage : Hall de nuit qui dessert un espace bureau, quatre chambres, une SDB, une SDD, une buanderie et un WC séparé.   2ème étage : Hall de nuit qui dessert une chambre, un WC séparé, desespaces de rangement et un espace grenier.   Sous-sol : Caves de rangement + chaufferie.   Extérieur : Un beau jardin, une vaste terrasse, 2 emplacements de parking et un local de rangement.   Technique : PEB B, chaudière au mazout, cassette à bois, châssis DV bois, VMC double flux, électricité bi-horaire et citerne d'eau de pluie.  Possibilité d'acquérir les maisons voisines :   Lot 1 (450.000 €) : Sup. totale +/- 174 m² (4 chambres/2 salles d'eau/PEB B) + 2 ares 84  Lot 3 (570.000 €) : Sup. totale +/- 270,5 m² (4 à 5 chambres/2 salles d'eau/PEB B) + 4 ares 08  Lot 4 (530.000 €) : Sup. totale +/-238,5 m² (4 chambres/2 salles d'eau/PEB B) + 3 ares 21  Un complexe équin + appartement : Sous réserve de mise en vente des propriétaires.  Louée ",
+      "type": "APARTMENT",
+      "subtype": "APARTMENT",
+      "title": null,
+      "description": null,
       "name": null,
-      "isHolidayProperty": null,
-      "bedroomCount": 5,
-      "bedrooms": [
-        {
-          "surface": 20
-        },
-        {
-          "surface": 16
-        },
-        {
-          "surface": 12
-        },
-        {
-          "surface": 11
-        },
-        {
-          "surface": 10
-        }
-      ],
+      "isHolidayProperty": false,
+      "bedroomCount": 1,
+      "bedrooms": [],
       "bathroomCount": 1,
       "bathrooms": [],
       "location": {
         "country": "Belgium",
-        "region": "Wallonie",
-        "province": "Walloon Brabant",
-        "district": "Nivelles",
-        "locality": "CHASTRE-VILLEROUX-BLANMONT",
-        "postalCode": "1450",
-        "street": null,
-        "number": null,
+        "region": "Flanders",
+        "province": "West Flanders",
+        "district": "Kortrijk",
+        "locality": "Desselgem",
+        "postalCode": "8792",
+        "street": "Meierie",
+        "number": "1,14",
         "box": null,
-        "propertyName": null,
-        "floor": null,
-        "latitude": null,
-        "longitude": null,
+        "propertyName": "Instapklaar appartement in het centrum van Desselg",
+        "floor": 1,
+        "latitude": 50.882573,
+        "longitude": 3.3561931,
         "distance": null,
         "approximated": null,
-        "regionCode": "WALLONIE",
+        "regionCode": "FLANDERS",
         "type": null,
         "hasSeaView": null,
-        "pointsOfInterest": null,
+        "pointsOfInterest": [
+          {
+            "type": "SCHOOL",
+            "distance": 0
+          },
+          {
+            "type": "SHOPS",
+            "distance": 0
+          },
+          {
+            "type": "TRANSPORT",
+            "distance": 0
+          }
+        ],
         "placeName": null
       },
-      "netHabitableSurface": 268,
+      "netHabitableSurface": 81,
       "roomCount": null,
       "monthlyCosts": null,
       "attic": null,
       "hasAttic": null,
-      "basement": {
-        "surface": 52
-      },
-      "hasBasement": true,
-      "hasDressingRoom": null,
+      "basement": null,
+      "hasBasement": null,
+      "hasDressingRoom": false,
       "diningRoom": null,
       "hasDiningRoom": null,
       "building": {
         "annexCount": null,
-        "condition": null,
-        "constructionYear": 2010,
-        "facadeCount": 2,
-        "floorCount": null,
+        "condition": "AS_NEW",
+        "constructionYear": 2005,
+        "facadeCount": null,
+        "floorCount": 3,
         "streetFacadeWidth": null
       },
-      "propertyCertificates": {
-        "builtPlanStatus": "NO",
-        "globalInsulationLevel": null,
-        "oilTankCertificateStatus": null,
-        "primaryEnergyConsumptionLevel": 0
-      },
-      "hasCaretakerOrConcierge": null,
-      "hasDisabledAccess": null,
-      "hasLift": null,
+      "propertyCertificates": null,
+      "hasCaretakerOrConcierge": false,
+      "hasDisabledAccess": false,
+      "hasLift": true,
       "constructionPermit": {
         "constructionType": null,
         "floodZoneType": null,
-        "isObtained": null,
-        "hasObligationToConstruct": null,
-        "hasPlotDivisionAuthorization": null,
-        "hasPossiblePriorityPurchaseRight": null,
-        "isBreachingUrbanPlanningRegulation": null,
+        "isObtained": true,
+        "hasObligationToConstruct": false,
+        "hasPlotDivisionAuthorization": true,
+        "hasPossiblePriorityPurchaseRight": false,
+        "isBreachingUrbanPlanningRegulation": false,
         "floodZoneIconUrl": null,
         "totalBuildableGroundFloorSurface": 0,
         "urbanPlanningInformation": null
       },
       "energy": {
-        "heatingType": "FUELOIL",
+        "heatingType": "ELECTRIC",
         "hasHeatPump": null,
         "hasPhotovoltaicPanels": null,
         "hasThermicPanels": null,
@@ -364,80 +264,89 @@
         "hasDoubleGlazing": true,
         "performance": null
       },
-      "kitchen": {
-        "surface": 9,
-        "type": "INSTALLED",
-        "hasOven": null,
-        "hasMicroWaveOven": null,
-        "hasDishwasher": null,
-        "hasWashingMachine": null,
-        "hasFridge": null,
-        "hasFreezer": null,
-        "hasSteamOven": null
-      },
+      "kitchen": null,
       "land": {
-        "hasGasWaterElectricityConnection": true,
+        "hasGasWaterElectricityConnection": null,
         "hasPlotToRear": null,
         "isFacingStreet": null,
         "isFlat": null,
         "isWooded": null,
-        "landWidth": 0,
-        "latestUseDesignation": null,
+        "landWidth": null,
+        "latestUseDesignation": "RES",
         "rearLand": null,
         "sewerConnection": null,
-        "surface": 280
+        "surface": null
       },
       "laundryRoom": null,
       "hasLaundryRoom": null,
-      "livingRoom": {
-        "surface": 37
-      },
+      "livingRoom": null,
       "hasLivingRoom": true,
       "isFirstOccupation": null,
       "hasBalcony": null,
       "hasBarbecue": null,
-      "hasGarden": true,
+      "hasGarden": null,
       "gardenSurface": null,
-      "gardenOrientation": "NORTH_WEST",
+      "gardenOrientation": null,
       "parkingCountIndoor": null,
       "parkingCountOutdoor": null,
       "parkingCountClosedBox": null,
       "hasAirConditioning": null,
-      "hasArmoredDoor": null,
-      "hasVisiophone": null,
-      "hasSecureAccessAlarm": null,
-      "hasCableTV": null,
-      "hasDoorPhone": null,
+      "hasArmoredDoor": false,
+      "hasVisiophone": false,
+      "hasSecureAccessAlarm": false,
+      "hasCableTV": true,
+      "hasDoorPhone": false,
       "hasInternet": null,
-      "showerRoomCount": 1,
+      "showerRoomCount": 0,
       "showerRooms": [],
-      "specificities": null,
-      "toiletCount": 3,
+      "specificities": {
+        "internalFixturesAndFittings": null,
+        "miscellaneousFixturesAndFittings": null,
+        "totalFloorSurface": null,
+        "accessDoorCount": null,
+        "sectionalDoorCount": null,
+        "slidingDoorCount": null,
+        "loadingBayCount": null,
+        "coveredBaysCount": null,
+        "loadingBayWithLiftingDeviceCount": null,
+        "ceilingHeight": null,
+        "maxAvailableHeight": null,
+        "minAvailableHeight": null,
+        "showroomSurface": null,
+        "hasReceptionDesk": null,
+        "shopWindowWidth": null,
+        "hasGoodwill": null,
+        "goodwillPrice": null,
+        "hasOffice": false,
+        "office": null,
+        "hasWorkspace": null,
+        "workspace": null
+      },
+      "toiletCount": 1,
       "toilets": [],
       "hasFitnessRoom": null,
       "hasTennisCourt": null,
-      "hasSwimmingPool": null,
+      "hasSwimmingPool": false,
       "hasSauna": null,
       "hasJacuzzi": null,
       "hasHammam": null,
       "bedroomSurface": null,
       "alternativeDescriptions": {
-        "fr": "Trust a le plaisir de vous proposer cette jolie maison de +/- 268 m² (superficie totale), dans le charmant village d'Ernage à 4,8 km de Chastre.   Située dans un cadre verdoyant, vous serez séduits par son agencement, ses finitions de qualité et le charme des extérieurs.   Situation idéale entre Bruxelles et Namur, à 80 m de l'arrêt de bus, à 1,2 km de la gare d'Ernage et à 10 km de l'E411.   Rez-de-chaussée : Hall d'entrée qui dessert un espace vestiaire, un séjour, une cuisine ouverte équipée et un WC séparé.   1er étage : Hall de nuit qui dessert un espace bureau, quatre chambres, une SDB, une SDD, une buanderie et un WC séparé.   2ème étage : Hall de nuit qui dessert une chambre, un WC séparé, des espaces de rangement et un espacegrenier.   Sous-sol : Caves de rangement + chaufferie.   Extérieur : Un beau jardin, une vaste terrasse, 2 emplacements de parking et un local de rangement.   Technique : PEB B, chaudière au mazout, cassette à bois, châssis DV bois, VMC double flux, électricité bi-horaire et citerne d'eau de pluie.  Possibilité d'acquérir les maisons voisines :   Lot 1 (450.000 €) : Sup. totale +/- 174 m² (4 chambres/2 salles d'eau/PEB B) + 2 ares 84  Lot 3 (570.000 €) : Sup. totale +/- 270,5 m² (4 à 5 chambres/2 salles d'eau/PEB B) + 4 ares 08  Lot 4 (530.000 €) : Sup. totale +/-238,5 m² (4 chambres/2 salles d'eau/PEB B) + 3 ares 21  Un complexe équin + appartement : Sous réserve de mise en vente des propriétaires.  Louée actuellement : 1.450 euros/mois  I",
-        "nl": "Sorry er is geen nederlandse vertaling beschikbaar. Trust a le plaisir de vous proposer cette jolie maison de +/- 268 m² (superficie totale), dans le charmant village d'Ernage à 4,8 km de Chastre.   Située dans un cadre verdoyant, vous serez séduits par son agencement, ses finitions de qualité et le charme des extérieurs.   Situation idéale entre Bruxelles et Namur, à 80 m de l'arrêt de bus, à 1,2 km de la gare d'Ernage et à 10 km de l'E411.   Rez-de-chaussée : Hall d'entrée qui dessert un espace vestiaire, un séjour, une cuisine ouverte équipée et un WC séparé.   1er étage : Hall de nuit qui dessert un espace bureau, quatre chambres, une SDB, une SDD, une buanderie et un WC séparé.   2ème étage : Hall de nuit qui dessert une chambre, un WCséparé, des espaces de rangement et un espace grenier.   Sous-sol : Caves de rangement + chaufferie.   Extérieur : Un beau jardin, une vaste terrasse, 2 emplacements de parking et un local de rangement.   Technique : PEB B, chaudière au mazout, cassette à bois, châssis DV bois, VMC double flux, électricité bi-horaire et citerne d'eau de pluie.  Possibilité d'acquérir les maisons voisines :   Lot 1 (450.000 €) : Sup. totale +/- 174 m² (4 chambres/2 salles d'eau/PEB B) + 2 ares 84  Lot 3 (570.000 €) : Sup. totale +/- 270,5 m² (4 à 5 chambres/2 salles d'eau/PEB B) + 4 ares 08  Lot 4 (530.000 €) : Sup. totale +/-238,5 m² (4 chambres/2 salles d'eau/PEB B) + 3 ares 21  Un complexe équin + appartement : Sous réserve de mise en vente des propriétai"
+        "nl": "Zeer goed onderhouden appartement op de eerste verdieping in Residentie Vivaldi !Inkom met apart toilet, lichtrijke woonkamer met klein terras op de voorkant. Open keuken met alle voorzieningen, één slaapkamer met doorgang naar een groot terras waar u kunt genieten van de namiddag- en avondzon !Badkamer met 2 lavabo's en ligbad. Berging. Parkeerplaats aan de overkant en kleine gemeenschappelijke tuin. Rustig gelegen en op een boogscheut van Waregem !EPC : 199 en UC: 2734345 Ideale opbrengsteigendom !Wenst u een bezoek ? Maak een afspraak met Lode : 0479/748616"
       },
       "habitableUnitCount": null,
-      "fireplaceCount": -1,
-      "fireplaceExists": true,
-      "hasTerrace": null,
+      "fireplaceCount": null,
+      "fireplaceExists": false,
+      "hasTerrace": true,
       "terraceSurface": null,
       "terraceOrientation": null
     },
     "publication": {
-      "creationDate": "2023-09-16T12:03:57.000+0000",
+      "creationDate": "2023-09-20T20:45:20.000+0000",
       "expirationDate": "2024-01-30T22:00:00.000+0000",
       "publisherId": null,
-      "visualisationOption": "XL",
-      "lastModificationDate": "2023-09-29T08:25:39.897+0000"
+      "visualisationOption": "M",
+      "lastModificationDate": "2023-10-02T06:52:20.903+0000"
     },
     "transaction": {
       "type": "FOR_SALE",
@@ -445,20 +354,20 @@
       "availabilityPeriodType": null,
       "availabilityDate": null,
       "certificates": {
-        "carbonEmission": 0,
+        "carbonEmission": null,
         "hasElectricalInstallationComplianceCertificate": null,
-        "primaryEnergyConsumptionPerSqm": 107,
-        "primaryEnergyConsumptionYearly": 24293,
+        "primaryEnergyConsumptionPerSqm": 199,
+        "primaryEnergyConsumptionYearly": null,
         "epcDescription": null,
-        "epcReference": "20230613016070",
+        "epcReference": "202211230002734345RES1",
         "epcScore": "B",
-        "epcUrl": "https://static.immoweb.be/pics/peb/peb_b.png"
+        "epcUrl": "https://static.immoweb.be/pics/peb/fla/b.png"
       },
       "rental": null,
       "sale": {
-        "price": 525000,
+        "price": 189000,
         "isSubjectToVat": false,
-        "cadastralIncome": 1125,
+        "cadastralIncome": 622,
         "publicSale": null,
         "pricePerSqm": null,
         "oldPrice": null,
@@ -481,31 +390,31 @@
     "priceType": null,
     "price": {
       "type": "residential_sale",
-      "mainValue": 525000,
+      "mainValue": 189000,
       "alternativeValue": null,
       "additionalValue": null,
       "oldValue": null,
       "minRangeValue": null,
       "maxRangeValue": null,
-      "mainDisplayPrice": "€525,000",
-      "HTMLDisplayPrice": "<span aria-hidden=\"true\">€525,000</span>",
+      "mainDisplayPrice": "€189,000",
+      "HTMLDisplayPrice": "<span aria-hidden=\"true\">€189,000</span>",
       "alternativeDisplayPrice": "",
       "oldDisplayPrice": null,
-      "shortDisplayPrice": "€525K",
-      "accessibilityPrice": "525000€",
+      "shortDisplayPrice": "€189K",
+      "accessibilityPrice": "189000€",
       "label": "Price",
       "date": null,
       "language": "en"
     },
-    "externalReference": "11388 - 4606555",
+    "externalReference": "3573527",
     "isBookmarked": false,
     "hasSectionsArray": {
       "hasGeneralSection": true,
       "hasInteriorSection": true,
       "hasExteriorSection": true,
-      "hasFacilitiesSection": false,
+      "hasFacilitiesSection": true,
       "hasEnergySection": true,
-      "hasPlanningSection": false,
+      "hasPlanningSection": true,
       "hasFinancialSection": true,
       "hasPublicSaleSection": false
     },
@@ -516,8 +425,8 @@
       "percentSold": null
     },
     "statistics": {
-      "bookmarkCount": 2,
-      "viewCount": 204,
+      "bookmarkCount": 1,
+      "viewCount": 82,
       "alertPrice": null,
       "creationDate": null,
       "description": null,

@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 sys.stdout.reconfigure(encoding='utf-8')
 
+
+
 # ----------------------------------
 def get_links_from_immoweb():
 # THIS FUNC COLLECTS LINKS OF ADDS # and save them in json
@@ -197,6 +199,9 @@ def get_data_immoweb(no,url):
 # ***************************
 # MAINE DATA GATHERING
 # ***************************
+
+# liks collecting
+get_links_from_immoweb()
 
 # list for urls from json file
 lst_all_urls = list()
