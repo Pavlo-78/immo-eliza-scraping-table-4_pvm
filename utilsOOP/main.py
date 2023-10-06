@@ -2,7 +2,6 @@
 import sys
 import csv
 import json
-import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 sys.stdout.reconfigure(encoding='utf-8')
@@ -15,59 +14,79 @@ import class3_wp_property as c3
 # MAINE DATA GATHERING
 # ***************************
 
-ppl=[]
+
 ooc_wpage_main=c1.w_page("immoweb","https://www.immoweb.be") 
 ooc_wpage_searchsale = c2.wpage_links("webpage with all objects for SALE", 
                                    ooc_wpage_main.url +
                                    "/en/search/house-and-apartment/for-sale?countries") 
 
-# list for urls from json file
-# lst_all_urls = list()
 
-# open file wit
-# h all link 
+# getting links
+print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"),"=", 'Collecting links is started...')
+lc=msg=ooc_wpage_searchsale.get_links(500)
+time=datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+msg1="Collecting links is finished."
+msg2="links are collected and saved to json."
+msg3= f"{time} {msg1} {lc} {msg2}"
+print(msg3)
+
+
+# open json file with urls 
 with open('web_urls_.json', encoding='utf-8') as f: 
-    u1 = json.load(f) # load json in variable
-    u1 = u1[0:10]    # DEBAGGING
-    dbgg=len(u1)
-    # print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "= The scrapping is started...")
-
-    to = len(u1) # list of dictionary with links  
-for i in range(to): # loop link by link 
-    u2=u1[i]        # this line 
-    u3=u2["url"]    # get url from this line
-    no=u2['No']     # get number of this line
-    ppl.append(c3.wpage_property(f"ppage{i}",u3,no))
-    # dct_by_url = get_data_immoweb(no,u3) # get data of this url
-    # if dct_by_url=="ERROR": # missing bad link
-    #     continue
-    # else:    
-    #     lst_all_urls.append(dct_by_url) # appending date of good link
-    # print time message of each 100 processed link as indication of process
-    # if no%100==0: 
-    #     print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"),"=", no, 'links are proceeded')
-# ------------------------------------------------------------------------------------------
- 
-
-print(no)
-
-# students = [Student(f"Студент_{i}") for i in range(20)]
-# pl = [c3.wpage_property(f"proprty_page{i}",u3,no) for i in range(20)]
-for i in(ppl):
-    print(i.no, i.desc,i.url)
+    # load json to (jurls) list of dictionaries with urls,no,num of page...
+    jurls = json.load(f) 
 
 
+alldata_lst=[]
+pp=[]
+# create immo objects by cycle each url-dict to extract url & no. "iobj" - object of immo property
+# for jurl in (jurls[0:350]): #dbg
+for jurl in (jurls):
+    ob=f"iobj{jurl['No']}"
+    no=jurl['No']
+    ur=jurl["url"]
+    pp.append(c3.wpage_property(ob, ur, no))
 
-# ------------------------------------------------------------------------------------------
+#
+# handeling all immo_oblects
+for p in(pp):
+    # get&set data to obj
+    if p.get_data_immoweb(): # start and feedback getting data
+        # log_msg
+        if int(p.no)%100==0: 
+            log_msg = datetime.now().strftime("%d/%m/%Y %H:%M:%S") +"=" + p.no + 'links are proceeded'
+            print(log_msg)            
+    else: continue # if it run into bad link  
+
+    # reading all attibuties names from object 
+    att=['no', 'url', 'PropertyId', 'Locality_Name', 'Postal_code', 'Type_of_property', 
+         'Subtype_of_property', 'Price', 'Type_of_sale', 'Number_of_rooms', 'Living_Area', 
+         'Equipped_kitchen', 'Furnished', 'Open_fire', 'Terrace_YN', 'TerraceSurface', 
+         'Garden_YN', 'Garden_area', 'Surface_of_good', 'Number_of_facades', 'Swimming_pool_YN', 
+         'State_of_building']
+    # Type_of_sale
 
 
-# *****************************************************
-# *****************************************************
 
-# 
-# print(ooc_wpage_main.info)
+    # all data obj
+    obj_data_dict = {} 
+    #  make record
+    for vn in(att):
+        obj_data_dict[vn] = getattr(p, vn)
+    #  add record in list for CSV    
+    alldata_lst.append(obj_data_dict)
 
 
-# ##
-# # print(ooc_wpage_searchsale.info)
-# print(ooc_wpage_searchsale.get_links())
+# preparing save dict to CSV 
+field_names = alldata_lst[0].keys() # get all keys od dict for csv.DictWriter
+# print(field_names)
+# writing dict to CSV
+with open('web_urls_data.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=field_names, quoting=csv.QUOTE_ALL)
+    writer.writeheader()
+    writer.writerows(alldata_lst)
+
+
+print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "= The scrapping is fifnished.")
+  
+

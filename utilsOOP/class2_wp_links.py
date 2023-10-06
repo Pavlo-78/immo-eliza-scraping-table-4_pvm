@@ -8,17 +8,17 @@ import class1_wp_home as c1
 
 
 class wpage_links(c1.w_page):
-      def __init__(self, desc, url):
-            super().__init__(desc, url)
+    def __init__(self, desc, url):
+        super().__init__(desc, url)
             
             
-      #
-      @property #перші дві властивості тягнуть з батьківського класу
-      def info(self): return f'desc={self.desc} url={self.url}'
+    #
+    @property #перші дві властивості тягнуть з батьківського класу
+    def info(self): return f'desc={self.desc} url={self.url}'
 
       #  
-      def get_links(self):
-        print(datetime.now().strftime("%d/%m/%Y %H:%M:%S"),"=", 'Collecting links is started...')
+    def get_links(self,count_page):  
+        self.count_page=count_page      
         # Send an HTTP GET request
         lst_urls=list()
         var_i=1
@@ -27,7 +27,7 @@ class wpage_links(c1.w_page):
         url = f"{self.url}=BE&page={var_ii}&orderBy=relevance"
         response = requests.get(url)
         var_respcode=response.status_code
-        while var_respcode == 200 and var_ii<500:  
+        while var_respcode == 200 and var_ii<count_page+1:  #500 #@@
             
             # Parse the HTML content
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -58,12 +58,8 @@ class wpage_links(c1.w_page):
         with open("web_urls_.json", "w", encoding='utf-8') as var_jf:
             var_jf.write(var_json) 
 
-        #
-        time=datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        msg1="Collecting links is finished."
-        msg2="links are collected and saved to json."
-        #
-        return f"{time} {msg1} {var_i-1} {msg2}"
+
+        return var_i-1 # count collected urls
       
 
 
