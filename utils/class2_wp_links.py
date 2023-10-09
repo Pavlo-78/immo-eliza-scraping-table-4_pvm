@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 sys.stdout.reconfigure(encoding='utf-8')
-import class1_wp_home as c1
+import utils.class1_wp_home as c1
 
 
 # A class of the search web page, that inherits from the class of the home page 

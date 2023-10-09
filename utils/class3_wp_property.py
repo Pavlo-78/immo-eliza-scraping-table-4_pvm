@@ -3,7 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 sys.stdout.reconfigure(encoding='utf-8')
-import class2_wp_links as c2
+import utils.class2_wp_links as c2
 
 # A class of the web page of a real estate object, that inherits from the class of the search page 
 # The inheritance is used for educational purposes
@@ -244,6 +244,25 @@ class wpage_property(c2.wpage_links):
         except (KeyError, TypeError):
             t = None
         self.ddict["location_type"] = t
+
+        try: # -- seller_type-------------------------------+
+            t = self.row_data["customers"][0]["type"]             
+        except (KeyError, TypeError):
+            t = None
+        self.ddict["seller_type"] = t
+        
+        try: # -- seller_name
+            t = self.row_data["customers"][0]["name"]             
+        except (KeyError, TypeError):
+            t = None
+        self.ddict["seller_name"] = t
+
+        try: # --seller_website
+            t = self.row_data["customers"][0]["website"]             
+        except (KeyError, TypeError):
+            t = None
+        self.ddict["seller_website"] = t
+
 
         return True
     

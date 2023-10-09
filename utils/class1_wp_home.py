@@ -1,6 +1,4 @@
-
-
-# створюємо клас веб сторінки
+# Class of web page
 class w_page():
         def __init__(self, desc, url):
             self.__desc=desc
