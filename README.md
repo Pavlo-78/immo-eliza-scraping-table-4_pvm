@@ -20,8 +20,9 @@ How does the program work?
 2. The program collects links from each page and saves them in the json file. (web_urls_1.json) There are approximately 19+ thousand of them.
 3. The program analyzes each received link, visits the page, collects and accumulates data.
 4. Some ads advertise a group of properties, each of which has its own weblink and page. In this case, all links are collected and stored in an additional json file (web_urls_2.json)
-5. After processing all links from the search page (web_urls_1.json), the program additionally processes links from group ads (web_urls_2.json).
+5. After processing all links from the search page (web_urls_1.json), the program additionally processes links from group ads (web_urls_2.json). 
 6. All collected information is recorded in the web_urls_data.csv file.
+7. All links are numbered from 1 onwards. Links from group ads are numbered as follows: "5/8" - 5 is the number of the ad with a group of objects, 8 is the number of the object on the page with a group of object. Thus, all child links are numbered with a slash (/).
 
 The program scraps information and save it to csv file with the following columns : 
 - Property ID
