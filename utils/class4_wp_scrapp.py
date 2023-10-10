@@ -25,7 +25,7 @@ class Scrapper():
             # link by limk    
             # for jurl in (jurls[:50]): #<<<===
             for jurl in (jurls):    
-                p = c3.wpage_property(jurl['No'], jurl["url"], jurl['No'])  # create immo objects 
+                p = c3.wpage_property("obj"+str(jurl['No']), jurl["url"], jurl['No'])  # create immo objects 
                 if p.get_data_immoweb()==True:  # get & set data to obj + feedback     
                     if int(coumter)%100==0:        # check getting data            
                         log_msg = datetime.now().strftime("%d/%m/%Y %H:%M:%S") +" = " + str(coumter) + ' links are processed'

@@ -10,11 +10,12 @@ sys.stdout.reconfigure(encoding='utf-8')
 ------- START SCRAPPING ------------
 ---------------------------------"""
 
+count_likspage_for_scrap=500
 url1="immoweb","https://www.immoweb.be"
 url2="/en/search/house-and-apartment/for-sale?countries"
 
 obj_wpage_home=c1.w_page("immoweb","https://www.immoweb.be") 
-ooj_wpage_search = c2.wpage_links("webpage with ad links", obj_wpage_home.url + url2) 
+ooj_wpage_links = c2.wpage_links("webpage with ad links", obj_wpage_home.url + url2) 
 obj_scr = c4.Scrapper()
 
 # clear file with group links
@@ -22,7 +23,7 @@ with open('web_urls_2.json', 'w', encoding='utf-8') as f:
     f.write('')
 
 # getting ordinary links, save them to json-file and get count scrapped links
-lc = ooj_wpage_search.get_links(500) #<<<=== 500
+lc = ooj_wpage_links.get_links(count_likspage_for_scrap) #<<<=== 500
 
 # Starting link processing and saving data to the list of dictionaries
 y = list()

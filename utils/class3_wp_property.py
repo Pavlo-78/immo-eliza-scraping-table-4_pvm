@@ -3,7 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 sys.stdout.reconfigure(encoding='utf-8')
-import utils.class2_wp_links as c2
+import utils.class2_wp_links as c2 #utils.
 
 # A class of the web page of a real estate object, that inherits from the class of the search page 
 # The inheritance is used for educational purposes
